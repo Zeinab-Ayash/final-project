@@ -1,0 +1,114 @@
+
+body{
+    margin:0px;
+}
+
+button{
+    border-radius: 20px;
+}
+
+input {
+   border-radius: 20px; 
+   height: 40px;
+   width: 350px;
+   text-align: center;
+   font-size: larger;
+   border-color: rgb(185, 189, 189);
+}
+
+.upper-container{
+    display: flex;
+    justify-content: space-between;
+    height:20vh;
+    h1{
+        margin: 20px;
+    }
+    
+}
+
+.lower-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 235, 235);
+    height: 80vh;
+    overflow-y: auto;
+    
+
+}
+
+.input-part{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.input-part button{
+    width: 200px ;
+    height: 40px ;
+    font-size: large;
+    color: white;
+    background-color: rgb(12, 121, 194);
+    border: 0px;
+}
+
+.input-part p{
+    font-size:30px;
+    color: rgb(232, 9, 9);
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.upper-container button{
+    width: 120px;
+    height: 50px;
+    margin: 30px;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+
+
+
+.dark-theme{
+    .lower-container{
+        background-color: rgba(36, 34, 34, 0.957);
+    }
+    .upper-container{
+        background-color: gray;
+        
+    }
+
+}
+
+
+#addded-bookmarks{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#addded-bookmarks a{
+    display: block;
+    text-decoration: none;
+    color:gray;
+    font-size: large;
+    
+}
+
+#addded-bookmarks{
+    .link1{
+        color: black;
+    }
+}
+
+#addded-bookmarks div{
+ background-color: white;
+ padding: 20px;
+
+    
+}
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <div class="upper-container">
+        <h1> Bookmark Manager </h1>
+        <button id="toggle_theme_btn" onclick="changeMode()">🌚</button>   
+    </div>
+
+    <div class="lower-container">
+        <div class="input-part">
+            <input type="text" id="bookmark-title" placeholder="Bookmark Title"/>
+            <input type="text" id="bookmark-url" placeholder="Bookmarl URL"/>
+            <button id="add-btn" onclick="addBookmark()">+ Add Bookmark</button>
+            <p id="error-statement"></p>
+        </div>
+
+        <div class="list_part" id="addded-bookmarks">
+            
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
